@@ -1,0 +1,87 @@
+body{
+    background-color: azure;
+    margin: 0%;
+    padding: 0%;
+}
+    
+    
+    
+    /*Semantics Example.css*/
+.header{
+    background-color: beige;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.headerh1{
+    color: black;
+    
+}
+
+.banner{
+    position: relative;
+    top: 120px;
+    max-width: 100%;
+
+}
+.banner img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.bannerWelcome{
+    position: absolute;
+    background-color: rgb(206, 122, 231);
+    padding: 20px;
+    font-size: 20px;
+    right: 10px;
+    bottom: 10px;
+    border: 2cm;
+    border: rgb(199, 13, 13);
+    border-radius: 3%;
+}
+.main-nav{
+    background-color: blanchedalmond;
+    padding: 20px;
+    position: sticky;
+    margin-top: 120px;
+}
+.main-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-nav ul li{
+    float: left;
+}
+
+.main-nav ul li a{
+    display: block;
+    padding: 10px;
+    color: rgb(0, 42, 230);
+    text-decoration: none;
+}
+
+.semanticsMain{
+    background-color: rgb(203, 234, 235);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+article h2{
+    color: rgb(134, 23, 23);
+font-size: 30px;
+}
+
+article p{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
