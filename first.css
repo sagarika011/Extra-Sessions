@@ -1,0 +1,124 @@
+
+
+/* Main Content Second Row CSS Starts */
+
+.secondRowMainContainer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.secondRowMainInnerContainer {
+    padding: 10px;
+    color: black;
+}
+
+.secondRowMainInnerContainer h2 {
+    color: rgb(70, 148, 225);
+}
+
+.notice-card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.notice-card .icon {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+#noticeCardIconOne {
+    background-color: #ff6600;
+}
+
+#noticeCardIconTwo {
+    background-color: #5ca4ce;
+}
+
+#noticeCardIconThree {
+    background-color: #66b33f;
+}
+
+.notice-card .icon i {
+    font-size: 32px;
+}
+
+.notice-card .content {
+    padding: 20px;
+}
+
+.notice-card .content h2 {
+    font-size: 20px;
+    color: #003d99;
+    margin: 0 0 10px 0;
+}
+
+.notice-card .content a {
+    color: #003d99;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.notice-card .content a:hover {
+    text-decoration: underline;
+}
+
+.secondRowMainCenterContainer {
+    display: block;
+    width: 40%;
+}
+
+.samriddhiExperiencesItem {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.samriddhiExperiencesCheckbox {
+    min-width: 24px;
+    height: 24px;
+    background-color: #ff6600;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: white;
+}
+
+/* .samriddhiExperiencesCheckbox::before {
+    content: '\2713';
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+} */
+
+.samriddhiExperiencesText {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#chairmanImg {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+#chairmanParagraph {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Main Content Second Row  CSS Ends*/
